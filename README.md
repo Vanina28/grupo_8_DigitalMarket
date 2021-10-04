@@ -6,10 +6,10 @@ Se trata de una página recientemente publicada que busca guiar al consumidor en
 Cabe destacar, que se trata de una plataforma de fácil acceso para todo rango etario. Su diseño está contemplado para que el pasaje del usuario por la misma, sea flexible a edad de cada uno. 
 
 ### Sobre nosotros:
-- ***Matías Herrera Lopardo*:** 24 años de edad. Periodista deportivo y estudiante de programación Full Stack en Digital House. Hace 3 años trabajando en el Departamento de Prensa del Club Atlético Banfield. Enérgico, trabajador, responsable y comprometido. En busca de progresar y adentrarme en el mundo de la programación.
-***Fabrizio Valentini Curcio:***Desarrollador de carácter realista, 19 años de edad. Consumidor de muchas plataformas, estudiante en DigitalHouse,amante de facilitar los procesos mediante diferentes herramientas y en busca de algun dia poder trabajar de lo que me gusta.
-- ***Vanina Menicocci:***
-- ***Sebastian Hildt:***
+**Matías Herrera Lopardo:** 24 años de edad. Periodista deportivo y estudiante de programación Full Stack en Digital House. Hace 3 años trabajando en el Departamento de Prensa del Club Atlético Banfield. Enérgico, trabajador, responsable y comprometido. En busca de progresar y adentrarme en el mundo de la programación.
+**Fabrizio Valentini Curcio:** Desarrollador de carácter realista, 19 años de edad. Consumidor de muchas plataformas, estudiante en DigitalHouse,amante de facilitar los procesos mediante diferentes herramientas y en busca de algun dia poder trabajar de lo que me gusta.
+**Vanina Menicocci:**
+**Sebastian Hildt:**
 
 ### Paginas referentes para nuestro proyecto:
 - [Mercado Libre ](http://https://www.mercadolibre.com.ar/ "Mercado Libre ")
