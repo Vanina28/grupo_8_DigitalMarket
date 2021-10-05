@@ -8,7 +8,7 @@ Cabe destacar, que se trata de una plataforma de fácil acceso para todo rango e
 ### Sobre nosotros:
 - **Matías Herrera Lopardo:** 24 años de edad. Periodista deportivo y estudiante de programación Full Stack en Digital House. Hace 3 años trabajando en el Departamento de Prensa del Club Atlético Banfield. Enérgico, trabajador, responsable y comprometido. En busca de progresar y adentrarme en el mundo de la programación.
 - **Fabrizio Valentini Curcio:** Desarrollador de carácter realista, 19 años de edad. Consumidor de muchas plataformas, estudiante en DigitalHouse,amante de facilitar los procesos mediante diferentes herramientas y en busca de algun dia poder trabajar de lo que me gusta.
-- **Vanina Menicocci:**
+- **Vanina Menicocci:** 19 años. Estudiante de Psicología y ahora también de programación web Full Stack. Busco aprender cosas nuevas y poder aplicarlas en mi futuro profesional :).
 - **Sebastian Hildt:**
 
 ### Paginas referentes para nuestro proyecto:
