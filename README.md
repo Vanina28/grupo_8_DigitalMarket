@@ -1,4 +1,4 @@
-## Acerca de Digital Market.
+## Acerca de Digital Market:
 Se trata de una página recientemente publicada que busca guiar al consumidor en el camino que recorre cada uno a la hora de la elección de un producto. Esta página está desarrollada para ofrecer a cada quien que la visite, las mejores opciones y condiciones de venta existentes en el mercado. Ofrece productos de índole electrónica; desde Notebooks, Netbooks, computadoras de escritorio, televisiones, cámaras, accesorios, entre otros. 
 
 
