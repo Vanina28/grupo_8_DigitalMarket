@@ -1,0 +1,362 @@
+* {
+    box-sizing: border-box;
+    margin:0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.main-header {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-header-top { 
+    display: none;
+    background-color: rgb(191, 194, 240);
+    border: 2px solid rgb(150, 149, 149);
+    margin: 0px;
+}
+
+.main-header-top ul{
+    list-style: none;
+    padding: 0;
+    margin-right: 15px;
+}
+
+.main-header-top a {
+text-decoration: none;
+color: #222222;
+display: inline-block;
+padding: 5px 0;
+font-size: 14px;
+}
+
+
+.parrafo {
+    font-size: 12px;
+}
+
+.main-header-center{
+    background-image: url(/images/fondo\ rosa.jpg);
+}
+
+.logo-search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    width: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.slogan {
+    display: none;
+}
+
+.barra-busqueda { 
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px;
+}
+
+.search {
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    font-size: 100%;
+    height: 150%;
+    border: 1px solid black;
+    color: gray;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 10%;
+}
+
+.burger-menu{
+    display: block;
+    background-color: #03264C;
+    color:#ffffff;
+    text-align: center;
+    max-width: 50%;
+    padding: 15px 45px;
+    border-radius: 8px;
+    margin:auto;   
+    font-size: 18px;
+}
+
+.user {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+
+.header-right {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 3rem;
+    color:black
+}
+
+
+.header-bottom-bar { 
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 16px;
+    background-color: rgb(191, 194, 240);
+    border: 2px solid rgb(150, 149, 149);
+    margin: 0px;
+}
+
+.header-bottom-bar ul{
+    width: auto;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-bottom-bar a {
+display: flex;
+text-decoration: none;
+color: #222222;
+display: inline-block;
+padding: 5px 0;
+font-size: 14px;
+}
+
+.header-bottom-bar .categorias {
+    margin:0;
+    padding:0;
+    width:70%;
+    list-style: none;
+}
+
+
+.header-bottom-bar .redes {
+    display: flex;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.header-bottom-bar li {
+    margin:0 8px;
+    font-size: 10px;
+}
+
+.header-bottom-bar i{
+    margin: 0 3px;
+    align-self: center;
+}
+
+/* HASTA ACÁ ES HEADER */
+
+
+main {
+    background-color: #ebebeb;
+}
+
+.main-article{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+main i {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.producto-principal{
+    width:75%;
+    align-items: center;
+    border: #03264C 6px solid;
+    box-shadow: 1px 1px 5px 5px;
+}
+
+.titulares{
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 800;
+        margin:15px;
+        width: 90%;
+        padding: 10px;
+        color: black;
+        border-bottom: #03264C 8px solid;
+    }
+
+.article-off {
+    width: 90%;
+    height: 50%;
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: #03264C 6px solid;
+    background-color: rgb(191, 194, 240);
+}
+
+.product-off{
+    margin: 20px;
+    width: 50%;
+    height: 10%;
+    border: #03264C 6px solid;
+    box-shadow: 1px 1px 5px 5px;
+}
+
+.description-off{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.interest {
+    width: 90%;
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+}
+
+.product-interest{
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 85px;
+    max-height: 85px;
+    border: #03264C 6px solid;
+    box-shadow: 1px 1px 5px 5px;
+}
+
+@media (min-width: 768px) {
+
+.logo {
+        width: 150px;
+        margin-left:20px;
+        cursor: pointer
+    }
+
+.slogan {
+        display: inline-block;
+        text-align: center;
+        width: 40%;
+        box-shadow: 1px 1px 5px 5px;
+        background-image: url(/images/fondo\ celeste.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.main-header-top { 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.main-header-top ul{
+    display:flex;
+}
+
+.main-header-top a {
+display: flex;
+}
+
+.main-header-top li {
+    margin:0 5px;
+    font-size: 10px;
+    }
+
+.main-header-top i{
+        margin: 0 5px;
+        align-self: center;
+    }
+
+ .barra-busqueda { 
+        margin: 20px 0 20px 10%;
+    
+    }
+    
+    .search {
+       margin: 20px ;
+    }
+
+
+.menu{
+    border-top: transparent;
+}
+
+.header-bottom-bar {
+    display: flex;
+}
+
+.header-bottom-bar { 
+    display: flex;
+}
+/* HASTA ACÁ ES HEADER */
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .logo {
+        width: 200px;
+        margin:0;
+        cursor: pointer
+    }
+    
+    .main-header-top { 
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+    
+    .main-header-top ul{
+        display:flex;
+    }
+    
+    .main-header-top a {
+    display: flex;
+    font-size: 16px;
+    }
+    
+    .main-header-top li {
+        margin:0 5px;
+        }
+    
+    .main-header-top i{
+            margin: 0 5px;
+            align-self: center;
+        }
+
+    .menu {
+        border-top: transparent;
+    }
+
+    .header-bottom-bar { 
+        display: flex;
+    }
+
+    /* HASTA ACÁ ES HEADER */
+}
