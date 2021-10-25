@@ -235,18 +235,62 @@ main i {
     text-align: center;
 }
 
-.box {
-}
-
 .product-interest{
     margin: 20px;
-    width: 100%;
+    width: 70%;
     height: auto;
-    max-width: 85px;
-    max-height: 85px;
-    border: #03264C 6px solid;
+    border: #03264C 3px solid;
     box-shadow: 1px 1px 5px 5px;
 }
+
+.celulares {
+    width: 90%;
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: #03264C 3px solid;
+    background-color: rgb(191, 194, 240);
+}
+
+.celulares div {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.celulares i{
+    display: none;
+}
+
+.celulares div i{
+    font-size: small;
+    margin: 1px;
+}
+
+.celulares p {
+    margin: 1px;
+}
+
+.celulares h3 {
+    text-align: center;
+}
+
+.product-cel{
+    margin: 20px;
+    width: 50%;
+    height: auto;
+    border: #03264C 6px solid;
+    box-shadow: 1px 1px 5px 5px;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+
+
+
 
 @media (min-width: 768px) {
 
@@ -313,7 +357,12 @@ display: flex;
 .header-bottom-bar { 
     display: flex;
 }
-/* HASTA ACÁ ES HEADER */
+
+.celulares i{
+    display: inline-block;
+}
+
+/* HASTA ACÁ ES TABLET */
 }
 
 
@@ -358,5 +407,8 @@ display: flex;
         display: flex;
     }
 
-    /* HASTA ACÁ ES HEADER */
+    .celulares i{
+        display: inline-block;
+    }
+
 }
