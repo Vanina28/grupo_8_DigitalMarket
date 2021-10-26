@@ -12,3 +12,6 @@ servidor.listen (5050, ()=> {
 servidor.get ("/home", (req,res) => {
     res.sendFile (path.join (__dirname, "/views/home.html"))
 })
+servidor.get ("/productCart", (req,res) => {
+    res.sendFile (path.join (__dirname, "/views/productCart.html"))
+})
