@@ -183,7 +183,7 @@ main i {
 }
 
 .producto-principal{
-    width:75%;
+    width:50%;
     align-items: center;
     border: #03264C 6px solid;
     box-shadow: 1px 1px 5px 5px;
@@ -213,7 +213,7 @@ main i {
 
 .product-off{
     margin: 20px;
-    width: 50%;
+    width: 30%;
     height: 10%;
     border: #03264C 6px solid;
     box-shadow: 1px 1px 5px 5px;
@@ -286,11 +286,73 @@ main i {
     box-shadow: 1px 1px 5px 5px;
     text-align: center;
     align-self: center;
-    align-content: center;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+}
+
+.top-footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 16px;
+    align-self: center;
+    margin-right: 20px;
 }
 
 
+.search-footer {
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: #03264C;
+    color: white;
+    padding: 10px;
+    margin-right: 1px;
+}
 
+.barra-busqueda-footer { 
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 150px;
+    padding: 10px;
+    border: 4px solid #03264C;
+}
+
+
+.redes-footer{
+    display: none;
+    list-style: none;
+    margin:none;
+}
+
+
+.redes-footer i {
+    display: inline-block;
+    margin:5px;
+    align-content: center;   
+}
+
+.redes-footer a {
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    
+    margin:none;
+    }
 
 @media (min-width: 768px) {
 
@@ -360,6 +422,19 @@ display: flex;
 
 .celulares i{
     display: inline-block;
+}
+
+.redes-footer {
+    display: flex;
+
+}
+
+.top-footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 /* HASTA ACÁ ES TABLET */
