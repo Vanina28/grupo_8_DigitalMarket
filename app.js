@@ -24,3 +24,7 @@ servidor.get ("/register", (req,res) => {
 servidor.get ("/login", (req,res) => {
     res.sendFile (path.join (__dirname, "/views/login.html"))
 })
+
+servidor.get ("/productdetail", (req,res) => {
+    res.sendFile (path.join (__dirname, "/views/productdetail.html"))
+})
