@@ -288,10 +288,18 @@ main i {
     align-self: center;
 }
 
+
+
+
+
+
 /* FOOTER */
 
 footer {
     width: 100%;
+    background-image: url(/images/fondo\ rosa.jpg);
+    margin-top: 20px;
+    border-top: 5px solid #03264C;
 }
 
 .top-footer{
@@ -350,9 +358,9 @@ footer h2 {
     text-decoration: none;
     color: #222222;
     font-size: 14px;
-    
     margin:none;
     }
+
 
 @media (min-width: 768px) {
 
@@ -436,9 +444,8 @@ display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-
-/* HASTA ACÁ ES TABLET */
 }
+/* HASTA ACÁ ES TABLET */
 
 
 
