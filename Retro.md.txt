@@ -1,0 +1,16 @@
+Retrospectiva:
+
+Luego del primer sprint podemos sacar algunas conclusiones de nuestro trabajo y pasamos a englobarlas en dos grandes esferas: positivas y negativas.
+Cabe aclarar que la poca cantidad de aspectos negativos tiene que ver con la dificultad del ejercicio propuesto.
+
+
+Positivas:
+- La predisposición del grupo para comprometerse con el trabajo y las deadlines.
+- La voluntad para colaborar en cualquier duda que un compañero pueda tener.
+- Buena comunicación entre todos para manternos actualizados del progreso individual de los integrantes del grupo.
+- El grupo se mostró resolutivo ante las dificultades que se presentaron.
+- Se pusieron sobre la mesa fortalezas y debilidades de cada integrante y se dividieron las tareas en función de ello.
+
+Negativo:
+- Cuestiones lógicas de la vida personal de cada uno (trabajo, familia o estudio) por momentos limitaron las horas de trabajo disponibles.
+- Tomó un poco de tiempo adaptarnos a la modalidad Git, aunque de a poco comenzamos a lograrlo.
