@@ -110,6 +110,9 @@ font-size: 14px;
     color:black
 }
 
+.header-right a {
+    color:black
+}
 
 .header-bottom-bar { 
     display: none;
