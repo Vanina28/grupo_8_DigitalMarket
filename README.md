@@ -23,3 +23,5 @@ Soy estudiante de Programacion Web Full Stack. Con ganas de seguir adquiriendo c
 
 Nuestra selección se vio reducida a estos 5 sitios porque consideramos que entre todos ellos se encuentra lo que nosotros buscamos. 
 Se trata de plataformas consumidas con habitualidad pero que creemos que aún se encuentran en proceso de desarrollo. Es por eso que nosotros destacamos y reservamos todas aquellas particularidades del diseño que creemos son las elegidas por excelencia en los consumidores de este tipo de plataforma y las juntamos en la nuestra, más conocida como Digital Market.
+
+Link tablero de trabajo (Trello): https://trello.com/invite/b/DGVK9O0T/f94daaa4e31a72a0d3845e980f57da93/digital-market
