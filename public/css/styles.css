@@ -102,7 +102,6 @@ font-size: 14px;
     padding-right: 20px;
 }
 
-
 .header-right {
     margin-left: 20px;
     text-align: center;
@@ -291,17 +290,12 @@ main i {
     align-self: center;
 }
 
-
-
-
-
-
 /* FOOTER */
 
 footer {
     width: 100%;
     background-image: url(/images/fondo\ rosa.jpg);
-    margin-top: 20px;
+    margin-top: 30px;
     border-top: 5px solid #03264C;
 }
 
@@ -362,6 +356,123 @@ footer h2 {
     color: #222222;
     font-size: 14px;
     margin:none;
+    }
+
+
+
+    /register/
+    .container {
+        padding: 16px;
+        background-color: white;
+      }
+
+      .centrado {
+          text-align: center;
+          font-weight: 400;
+      }
+      
+      
+      form input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+      form input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+      
+      
+      .registerbtn {
+        background-color: #D98880;
+        color: white;
+        padding: 10px 16px;
+        margin: 10px 0;
+        border: none;
+        cursor: pointer;
+        width: 80%;
+        opacity: 0.9;
+      }
+
+      
+      .registerbtn:hover {
+        opacity: 1;
+      }
+      
+
+      
+      a {
+        color: dodgerblue;
+      }
+      
+      
+      .signin {
+        background-color: #f1f1f1;
+        text-align: center;
+      }
+    
+     /*login*/
+
+     .container {
+      padding: 16px;
+      background-color: white;
+    }
+    
+    
+    form input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    form input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+    
+    .registerbtn {
+      background-color: #D98880;
+      color: white;
+      padding: 10px 16px;
+      margin: 10px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    .registerbtn:hover {
+      opacity: 1;
+    }
+    
+    
+    a {
+      color: dodgerblue;
+    }
+    
+    .signin {
+      background-color: #f1f1f1;
+      text-align: center;
     }
 
 
@@ -518,6 +629,7 @@ display: flex;
     color: yellowgreen;
 }
 .botones-carrito{
+    margin-top: 20px;
     text-align: center;
 }
 .boton-eliminar-carrito{
