@@ -5,26 +5,30 @@ const servidor = express()
 const publicFolderPath = path.resolve(__dirname, "./public")
 servidor.use(express.static(publicFolderPath));
 
+servidor.set('view engine', 'ejs')
+
+servidor.set('views', path.join(__dirname, 'src/views'))
+
 servidor.listen (5050, ()=> {
     console.log("Servidor funcionando")
 })
 
-servidor.get ("/home", (req,res) => {
-    res.sendFile (path.join (__dirname, "/views/home.html"))
+servidor.get ("/", (req,res) => {
+    res.render('home')
 })
 
 servidor.get ("/productCart", (req,res) => {
-    res.sendFile (path.join (__dirname, "/views/productCart.html"))
+    res.render('productCart')
 })
 
 servidor.get ("/register", (req,res) => {
-    res.sendFile (path.join (__dirname, "/views/register.html"))
+    res.render('register')
 })
 
 servidor.get ("/login", (req,res) => {
-    res.sendFile (path.join (__dirname, "/views/login.html"))
+    res.render('login')
 })
 
 servidor.get ("/productdetail", (req,res) => {
-    res.sendFile (path.join (__dirname, "/views/productdetail.html"))
+    res.render('productdetail')
 })
