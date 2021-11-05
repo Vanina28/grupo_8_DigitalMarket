@@ -360,7 +360,7 @@ footer h2 {
 
 
 
-    /register/
+    /*register*/
     .container {
         padding: 16px;
         background-color: white;
@@ -578,7 +578,7 @@ footer h2 {
 	}
 	
 	button:active {
-	    background-color: # rgb(191, 194, 240);;
+	    background-color: rgb(191, 194, 240);;
 	    border-color: #ff8000;
 	    transition: 1000ms;
 	}
